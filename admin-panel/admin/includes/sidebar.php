@@ -3,10 +3,10 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
+        <div class="avatar">
+            <img src="assets/img/peso logo.jpg" class="avatar">
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">PESO Admin</div>
     </a>
 
     <!-- Divider -->
@@ -17,6 +17,18 @@
         <a class="nav-link" href="index.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
+    </li>
+
+    <li class="nav-item inactive">
+        <a class="nav-link" href="program.php">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Program</span></a>
+    </li>
+
+    <li class="nav-item inactive">
+        <a class="nav-link" href="users.php">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Users</span></a>
     </li>
 
     <!-- Divider -->
