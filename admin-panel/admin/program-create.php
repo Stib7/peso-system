@@ -14,31 +14,36 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-6">
-                <div class="p-2">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="p-2">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Program Name</label>
+                                        <input type="text" name="progName" class="form-control form-control-user">
+                                    </div>
+                                </div>
 
-                    <form class="program">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Program Description</label><br/>
+                                        <textarea id="subject" name="progDesc" placeholder="Write something.." style="height:200px; width:100%; max-width:400px;"></textarea>  
+                                    </div>
+                                </div>
 
-                        <div class="form-group">
-                            <p class="mb-4">Program Name</p>
-                            <input type="text" class="form-control form-control-user"
-                                id="program-create-name">
-                        </div>
-
-                        <div class="form-group">
-                            <p class="mb-4">Program Description</p>
-                            <input type="text" class="form-control form-control-user"
-                                id="program-create-desc">
-                        </div>
-                        
-                        <a href="index.html" class="btn btn-primary btn-user btn-block">
-                            Add
-                        </a>
+                                <div class="col-md-6">
+                                    <div class="mb-3 text-end">
+                                        <br/>
+                                        <button type="submit" name="saveProg" class="btn btn-primary">Submit</button>  
+                                    </div>
+                                </div>
+                            </div>      
+                        </form>
                         <hr>
-                        
-                    </form>
-                    <hr>
-                </div>
+                    </div>
+                </div>  
             </div>
         </div>
 
