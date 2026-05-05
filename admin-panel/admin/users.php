@@ -30,8 +30,8 @@
                                     <th>Email</th>
                                     <th>Phone</th>
                                     <th>
-                                        <a href="" class="btn btn-success btn-sm">Edit</a>
-                                        <a href="" class="btn btn-danger btn-sm mx-2">Delete</a>
+                                        <a href="users-edit.php" class="btn btn-success btn-sm">Edit</a>
+                                        <a href="users-delete.php" class="btn btn-danger btn-sm mx-2">Delete</a>
                                     </th>
                                 </tr>
                                 <tr>
@@ -40,8 +40,8 @@
                                     <th>Email</th>
                                     <th>Phone</th>
                                     <th>
-                                        <a href="" class="btn btn-success btn-sm">Edit</a>
-                                        <a href="" class="btn btn-danger btn-sm mx-2">Delete</a>
+                                        <a href="users-edit.php" class="btn btn-success btn-sm">Edit</a>
+                                        <a href="users-delete.php" class="btn btn-danger btn-sm mx-2">Delete</a>
                                     </th>
                                 </tr>
                                 <tr>
@@ -50,8 +50,8 @@
                                     <th>Email</th>
                                     <th>Phone</th>
                                     <th>
-                                        <a href="" class="btn btn-success btn-sm">Edit</a>
-                                        <a href="" class="btn btn-danger btn-sm mx-2">Delete</a>
+                                        <a href="users-edit.php" class="btn btn-success btn-sm">Edit</a>
+                                        <a href="users-delete.php" class="btn btn-danger btn-sm mx-2">Delete</a>
                                     </th>
                                 </tr>
                             </tbody>
