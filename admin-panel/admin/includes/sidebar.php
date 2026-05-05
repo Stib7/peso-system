@@ -1,3 +1,7 @@
+<?php
+$current_page = basename($_SERVER['PHP_SELF']);
+?>
+
 <!-- Sidebar -->
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -13,22 +17,25 @@
     <hr class="sidebar-divider my-0">
 
     <!-- Nav Item - Dashboard -->
-    <li class="nav-item active">
+    <li class="nav-item <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>">
         <a class="nav-link" href="index.php">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
+            <i class="fas fa-fw fa-tachometer-alt"></i> <!-- Dashboard -->
+            <span>Dashboard</span>
+        </a>
     </li>
 
-    <li class="nav-item inactive">
+    <li class="nav-item <?php echo ($current_page == 'program.php') ? 'active' : ''; ?>">
         <a class="nav-link" href="program.php">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Program</span></a>
+            <i class="fas fa-fw fa-book"></i> <!-- Program -->
+            <span>Program</span>
+        </a>
     </li>
 
-    <li class="nav-item inactive">
+    <li class="nav-item <?php echo ($current_page == 'users.php') ? 'active' : ''; ?>">
         <a class="nav-link" href="users.php">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Users</span></a>
+            <i class="fas fa-fw fa-users"></i> <!-- Users -->
+            <span>Users</span>
+        </a>
     </li>
 
     <!-- Divider -->
