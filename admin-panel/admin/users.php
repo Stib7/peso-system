@@ -10,9 +10,56 @@
         </div>
 
         <div class="row">
-
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>
+                                        <a href="" class="btn btn-success btn-sm">Edit</a>
+                                        <a href="" class="btn btn-danger btn-sm mx-2">Delete</a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>
+                                        <a href="" class="btn btn-success btn-sm">Edit</a>
+                                        <a href="" class="btn btn-danger btn-sm mx-2">Delete</a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>3</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>
+                                        <a href="" class="btn btn-success btn-sm">Edit</a>
+                                        <a href="" class="btn btn-danger btn-sm mx-2">Delete</a>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
     </div>
+
 <?php include('includes/footer.php') ?>
