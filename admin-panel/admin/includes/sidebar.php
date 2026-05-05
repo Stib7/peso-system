@@ -8,7 +8,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
         <div class="avatar">
-            <img src="assets/img/png logo-peso.png" class="avatar" width="35">
+            <img src="assets/img/png logo-peso.png" class="avatar" width="40">
         </div>
         <div class="sidebar-brand-text mx-3">PESO Admin</div>
     </a>
