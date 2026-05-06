@@ -25,14 +25,36 @@
                                         <input type="text" name="progName" class="form-control form-control-user">
                                     </div>
                                 </div>
-
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                        <label>Program Description</label><br/>
-                                        <textarea id="subject" name="progDesc" placeholder="Write something.." style="height:200px; width:100%; max-width:400px;"></textarea>  
+                                        <label>Description</label><br/>
+                                        <textarea id="subject" name="progDesc" placeholder="Write something.." style="height:50px; width:100%; max-width:400px;"></textarea>  
                                     </div>
                                 </div>
-
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Program Type</label>
+                                        <input type="text" name="progName" class="form-control form-control-user">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Start Date</label>
+                                        <input type="date" name="start_date" class="form-control form-control-user">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>End Date</label>
+                                        <input type="date" name="end_date" class="form-control form-control-user">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Status</label>
+                                        <input type="text" name="progName" class="form-control form-control-user">
+                                    </div>
+                                </div>
                                 <div class="col-md-6">
                                     <div class="mb-3 text-end">
                                         <br/>
