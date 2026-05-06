@@ -30,7 +30,7 @@
                                 <td>Livelihood program</td>
                                 <td>2011/04/25</td>
                                 <td>2011/04/25</td>
-                                <td>Ongoing</td>
+                                <td>Active</td>
                             </tr>
                             <tr>
                                 <td>TUPAD</td>
@@ -38,7 +38,7 @@
                                 <td>Emergency employment program</td>
                                 <td>2011/04/25</td>
                                 <td>2011/04/25</td>
-                                <td>Ongoing</td>
+                                <td>Inactive</td>
                             </tr>
                             
                         </tbody>

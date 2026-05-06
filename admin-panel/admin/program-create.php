@@ -51,7 +51,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                        <label>Status</label>
+                                        <label>Status</label> <!-- Active, Inactive -->
                                         <input type="text" name="progName" class="form-control form-control-user">
                                     </div>
                                 </div>
