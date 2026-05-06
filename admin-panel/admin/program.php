@@ -9,8 +9,45 @@
                     class="fas fa-download fa-sm text-white-50"></i> Create Program</a>
         </div>
 
-        <div class="row">
-
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Program Name</th>
+                                <th>Program Type</th>
+                                <th>Description</th>
+                                <th>Start date</th>
+                                <th>End date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Livelihood</td>
+                                <td>Employment</td>
+                                <td>Livelihood program</td>
+                                <td>2011/04/25</td>
+                                <td>2011/04/25</td>
+                                <td>Ongoing</td>
+                            </tr>
+                            <tr>
+                                <td>TUPAD</td>
+                                <td>Employment</td>
+                                <td>Emergency employment program</td>
+                                <td>2011/04/25</td>
+                                <td>2011/04/25</td>
+                                <td>Ongoing</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
 
