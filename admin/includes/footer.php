@@ -2,64 +2,75 @@
 <!-- End of Main Content -->
 
 <!-- Footer -->
-        <footer class="sticky-footer bg-white">
-            <div class="container my-auto">
-                <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Your Website 2021</span>
-                </div>
-            </div>
-        </footer>
-        <!-- End of Footer -->
-
-        </div>
-        <!-- End of Content Wrapper -->     
-
-    </div>
-    <!-- End of Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
-                </div>
-            </div>
+<footer class="sticky-footer bg-white">
+    <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+            <span>Copyright &copy; PESO Malaybalay 2026</span>
         </div>
     </div>
+</footer>
+<!-- End of Footer -->
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</div>
+<!-- End of Content Wrapper -->     
 
-    <!-- Core plugin JavaScript-->
-    <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+</div>
+<!-- End of Page Wrapper -->
 
-    <!-- Custom scripts for all pages-->
-    <script src="assets/js/sb-admin-2.min.js"></script>
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+</a>
 
-    <!-- Page level plugins -->
-    <script src="assets/vendor/chart.js/Chart.min.js"></script>
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
 
-    <!-- Page level custom scripts -->
-    <script src="assets/js/demo/chart-area-demo.js"></script>
-    <script src="assets/js/demo/chart-pie-demo.js"></script>
+            <div class="modal-header">
+                <h5 class="modal-title">Ready to Leave?</h5>
+
+                <button class="close" type="button" data-dismiss="modal">
+                    <span>×</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                Select "Logout" below if you are ready to end your current session.
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">
+                    Cancel
+                </button>
+
+                <a class="btn btn-primary" href="../login.php">
+                    Logout
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="/PESO-SYSTEM/admin/assets/vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="/PESO-SYSTEM/admin/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- jQuery Easing -->
+<script src="/PESO-SYSTEM/admin/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom Scripts -->
+<script src="/PESO-SYSTEM/admin/assets/js/sb-admin-2.min.js"></script>
+
+<!-- Chart.js -->
+<script src="/PESO-SYSTEM/admin/assets/vendor/chart.js/Chart.min.js"></script>
+
+<!-- Demo Charts -->
+<script src="/PESO-SYSTEM/admin/assets/js/demo/chart-area-demo.js"></script>
+<script src="/PESO-SYSTEM/admin/assets/js/demo/chart-pie-demo.js"></script>
 
 </body>
-
 </html>
- 
